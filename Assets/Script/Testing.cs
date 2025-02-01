@@ -42,7 +42,7 @@ public class Testing : MonoBehaviour {
             grid[x][y].SetValue(i,j,42);
 
         
-            MachineObject obj = new MachineObject(DataMachine.dataMachine["机器"],0,i,j,x,y);
+            MachineObject obj = new MachineObject(DataMachine.dataMachine["Assembler"],0,i,j,x,y);
             grid[x][y].SetMachine(i,j,obj);
             Build(obj);
         }
@@ -72,7 +72,7 @@ public class Testing : MonoBehaviour {
                 int index= grid[x][y].GetValue(i,j);
                 if(index != 0)      return;
                 grid[x][y].SetValue(i,j,20);
-                obj = new MachineObject(DataMachine.dataMachine["箱子"],0,i,j,x,y);
+                obj = new MachineObject(DataMachine.dataMachine["Box"],0,i,j,x,y);
                 grid[x][y].SetMachine(i,j,obj);
                 Build(obj);
             }

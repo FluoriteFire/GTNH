@@ -16,7 +16,7 @@ public class InitMachine : MonoBehaviour
         {
             var text = jsonTextFile[i].ToString();
             Machine m = JsonUtility.FromJson<Machine>(text);
-            // m.machineObject = Resources.Load<GameObject>("Prefab/"+m.machineName);
+            m.machineObject = Resources.Load<GameObject>("Prefab/"+m.machineName);
             // Resources.Load("enemy", typeof(GameObject))
 
             DataMachine.dataMachine.Add(m.machineName, m);

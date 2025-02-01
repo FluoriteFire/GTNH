@@ -451,7 +451,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2191423178687689040, guid: 9ffa22b6107464e4b85597c14303a84b, type: 3}
       propertyPath: m_Name
-      value: Cube 1
+      value: assembler
       objectReference: {fileID: 0}
     - target: {fileID: 2191423178687689044, guid: 9ffa22b6107464e4b85597c14303a84b, type: 3}
       propertyPath: m_RootOrder
@@ -459,7 +459,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2191423178687689044, guid: 9ffa22b6107464e4b85597c14303a84b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 25
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2191423178687689044, guid: 9ffa22b6107464e4b85597c14303a84b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -467,7 +467,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2191423178687689044, guid: 9ffa22b6107464e4b85597c14303a84b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 25
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2191423178687689044, guid: 9ffa22b6107464e4b85597c14303a84b, type: 3}
       propertyPath: m_LocalRotation.w
